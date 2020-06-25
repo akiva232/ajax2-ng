@@ -1,0 +1,24 @@
+.divcon{
+    width: 70%;
+    display: flex
+}
+
+.js{
+    background: red
+}
+
+.html{
+    background: yellow
+}
+
+.json{
+    background: pink
+}
+
+.txt{
+    background: blue
+}
+
+.html2{
+    background: yellow
+}

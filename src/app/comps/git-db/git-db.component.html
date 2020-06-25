@@ -1,0 +1,29 @@
+
+
+
+ <div class="divcon">
+    <div class ="txt" >{{dbAjaxContent["txt"]}}</div>
+ </div>
+
+
+
+<div class="divcon">
+    <div [class]="key" *ngFor="let key of keysArr">{{dbAjaxContent[key]}}</div>
+    </div>
+
+    <!-- <div class="divcon">
+            <div class ="txt">{{dbAjaxContent["js"]}}</div>
+         </div>
+
+         <div class="divcon">
+                <div class ="txt">{{dbAjaxContent["json"]}}</div>
+             </div> -->
+
+
+
+    <div class="html2">
+            <div class ="html2" [innerHTML]="dbAjaxContent['html']"></div>
+         </div>
+
+
+
